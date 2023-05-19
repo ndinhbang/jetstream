@@ -1,9 +1,9 @@
 <?php
 
-namespace Laravel\Jetstream\Tests\Fixtures;
+namespace Ndinhbang\Jetstream\Tests\Fixtures;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Laravel\Jetstream\HasProfilePhoto;
+use Ndinhbang\Jetstream\HasProfilePhoto;
 use Laravel\Sanctum\HasApiTokens;
 
 class Admin extends Authenticatable

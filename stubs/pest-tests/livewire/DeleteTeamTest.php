@@ -2,7 +2,7 @@
 
 use App\Models\Team;
 use App\Models\User;
-use Laravel\Jetstream\Http\Livewire\DeleteTeamForm;
+use Ndinhbang\Jetstream\Http\Livewire\DeleteTeamForm;
 use Livewire\Livewire;
 
 test('teams can be deleted', function () {

@@ -7,11 +7,11 @@ use App\Models\User;
 use Closure;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Validator;
-use Laravel\Jetstream\Contracts\AddsTeamMembers;
-use Laravel\Jetstream\Events\AddingTeamMember;
-use Laravel\Jetstream\Events\TeamMemberAdded;
-use Laravel\Jetstream\Jetstream;
-use Laravel\Jetstream\Rules\Role;
+use Ndinhbang\Jetstream\Contracts\AddsTeamMembers;
+use Ndinhbang\Jetstream\Events\AddingTeamMember;
+use Ndinhbang\Jetstream\Events\TeamMemberAdded;
+use Ndinhbang\Jetstream\Jetstream;
+use Ndinhbang\Jetstream\Rules\Role;
 
 class AddTeamMember implements AddsTeamMembers
 {

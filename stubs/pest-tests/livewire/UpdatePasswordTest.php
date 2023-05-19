@@ -2,7 +2,7 @@
 
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
-use Laravel\Jetstream\Http\Livewire\UpdatePasswordForm;
+use Ndinhbang\Jetstream\Http\Livewire\UpdatePasswordForm;
 use Livewire\Livewire;
 
 test('password can be updated', function () {

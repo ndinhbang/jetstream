@@ -2,7 +2,7 @@
 
 use App\Models\User;
 use Illuminate\Support\Str;
-use Laravel\Jetstream\Features;
+use Ndinhbang\Jetstream\Features;
 
 test('api tokens can be deleted', function () {
     if (Features::hasTeamFeatures()) {

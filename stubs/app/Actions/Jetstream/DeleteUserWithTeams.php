@@ -5,15 +5,15 @@ namespace App\Actions\Jetstream;
 use App\Models\Team;
 use App\Models\User;
 use Illuminate\Support\Facades\DB;
-use Laravel\Jetstream\Contracts\DeletesTeams;
-use Laravel\Jetstream\Contracts\DeletesUsers;
+use Ndinhbang\Jetstream\Contracts\DeletesTeams;
+use Ndinhbang\Jetstream\Contracts\DeletesUsers;
 
 class DeleteUser implements DeletesUsers
 {
     /**
      * The team deleter implementation.
      *
-     * @var \Laravel\Jetstream\Contracts\DeletesTeams
+     * @var \Ndinhbang\Jetstream\Contracts\DeletesTeams
      */
     protected $deletesTeams;
 

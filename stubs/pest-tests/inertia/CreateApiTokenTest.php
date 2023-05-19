@@ -1,7 +1,7 @@
 <?php
 
 use App\Models\User;
-use Laravel\Jetstream\Features;
+use Ndinhbang\Jetstream\Features;
 
 test('api tokens can be created', function () {
     if (Features::hasTeamFeatures()) {

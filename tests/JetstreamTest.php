@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Jetstream\Tests;
+namespace Ndinhbang\Jetstream\Tests;
 
-use Laravel\Jetstream\Jetstream;
+use Ndinhbang\Jetstream\Jetstream;
 
 class JetstreamTest extends OrchestraTestCase
 {

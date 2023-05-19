@@ -6,7 +6,7 @@ use App\Models\Team;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
-use Laravel\Jetstream\Features;
+use Ndinhbang\Jetstream\Features;
 
 class UserFactory extends Factory
 {

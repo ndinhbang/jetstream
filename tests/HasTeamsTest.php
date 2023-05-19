@@ -1,14 +1,14 @@
 <?php
 
-namespace Laravel\Jetstream\Tests;
+namespace Ndinhbang\Jetstream\Tests;
 
 use App\Models\Team;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Laravel\Jetstream\Jetstream;
-use Laravel\Jetstream\OwnerRole;
-use Laravel\Jetstream\Role;
-use Laravel\Jetstream\Tests\Fixtures\User as UserFixture;
+use Ndinhbang\Jetstream\Jetstream;
+use Ndinhbang\Jetstream\OwnerRole;
+use Ndinhbang\Jetstream\Role;
+use Ndinhbang\Jetstream\Tests\Fixtures\User as UserFixture;
 
 class HasTeamsTest extends OrchestraTestCase
 {

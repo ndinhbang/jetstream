@@ -2,7 +2,7 @@
 
 use App\Providers\RouteServiceProvider;
 use Laravel\Fortify\Features;
-use Laravel\Jetstream\Jetstream;
+use Ndinhbang\Jetstream\Jetstream;
 
 test('registration screen can be rendered', function () {
     $response = $this->get('/register');

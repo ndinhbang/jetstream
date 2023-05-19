@@ -10,7 +10,7 @@ use App\Actions\Jetstream\InviteTeamMember;
 use App\Actions\Jetstream\RemoveTeamMember;
 use App\Actions\Jetstream\UpdateTeamName;
 use Illuminate\Support\ServiceProvider;
-use Laravel\Jetstream\Jetstream;
+use Ndinhbang\Jetstream\Jetstream;
 
 class JetstreamServiceProvider extends ServiceProvider
 {

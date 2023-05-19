@@ -1,7 +1,7 @@
 <?php
 
 use App\Models\User;
-use Laravel\Jetstream\Http\Livewire\LogoutOtherBrowserSessionsForm;
+use Ndinhbang\Jetstream\Http\Livewire\LogoutOtherBrowserSessionsForm;
 use Livewire\Livewire;
 
 test('other browser sessions can be logged out', function () {

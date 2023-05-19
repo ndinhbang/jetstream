@@ -1,15 +1,15 @@
 <?php
 
-namespace Laravel\Jetstream\Tests;
+namespace Ndinhbang\Jetstream\Tests;
 
 use App\Actions\Jetstream\CreateTeam;
 use App\Models\Team;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\URL;
-use Laravel\Jetstream\Contracts\AddsTeamMembers;
-use Laravel\Jetstream\Jetstream;
-use Laravel\Jetstream\Tests\Fixtures\TeamPolicy;
-use Laravel\Jetstream\Tests\Fixtures\User;
+use Ndinhbang\Jetstream\Contracts\AddsTeamMembers;
+use Ndinhbang\Jetstream\Jetstream;
+use Ndinhbang\Jetstream\Tests\Fixtures\TeamPolicy;
+use Ndinhbang\Jetstream\Tests\Fixtures\User;
 
 class TeamInvitationControllerTest extends OrchestraTestCase
 {

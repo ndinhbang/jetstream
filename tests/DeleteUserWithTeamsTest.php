@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Jetstream\Tests;
+namespace Ndinhbang\Jetstream\Tests;
 
 use App\Actions\Jetstream\CreateTeam;
 use App\Actions\Jetstream\DeleteTeam;
@@ -10,9 +10,9 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
-use Laravel\Jetstream\Jetstream;
-use Laravel\Jetstream\Tests\Fixtures\TeamPolicy;
-use Laravel\Jetstream\Tests\Fixtures\User;
+use Ndinhbang\Jetstream\Jetstream;
+use Ndinhbang\Jetstream\Tests\Fixtures\TeamPolicy;
+use Ndinhbang\Jetstream\Tests\Fixtures\User;
 
 class DeleteUserWithTeamsTest extends OrchestraTestCase
 {

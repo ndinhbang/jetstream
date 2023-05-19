@@ -4,7 +4,7 @@ namespace Tests\Feature;
 
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Laravel\Jetstream\Features;
+use Ndinhbang\Jetstream\Features;
 use Tests\TestCase;
 
 class CreateApiTokenTest extends TestCase

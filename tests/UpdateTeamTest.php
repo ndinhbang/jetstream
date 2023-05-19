@@ -1,15 +1,15 @@
 <?php
 
-namespace Laravel\Jetstream\Tests;
+namespace Ndinhbang\Jetstream\Tests;
 
 use App\Actions\Jetstream\CreateTeam;
 use App\Actions\Jetstream\UpdateTeamName;
 use App\Models\Team;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Validation\ValidationException;
-use Laravel\Jetstream\Jetstream;
-use Laravel\Jetstream\Tests\Fixtures\TeamPolicy;
-use Laravel\Jetstream\Tests\Fixtures\User;
+use Ndinhbang\Jetstream\Jetstream;
+use Ndinhbang\Jetstream\Tests\Fixtures\TeamPolicy;
+use Ndinhbang\Jetstream\Tests\Fixtures\User;
 
 class UpdateTeamTest extends OrchestraTestCase
 {

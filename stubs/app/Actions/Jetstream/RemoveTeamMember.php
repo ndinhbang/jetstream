@@ -7,8 +7,8 @@ use App\Models\User;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Validation\ValidationException;
-use Laravel\Jetstream\Contracts\RemovesTeamMembers;
-use Laravel\Jetstream\Events\TeamMemberRemoved;
+use Ndinhbang\Jetstream\Contracts\RemovesTeamMembers;
+use Ndinhbang\Jetstream\Events\TeamMemberRemoved;
 
 class RemoveTeamMember implements RemovesTeamMembers
 {

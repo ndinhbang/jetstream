@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Jetstream\Tests\Fixtures;
+namespace Ndinhbang\Jetstream\Tests\Fixtures;
 
 use App\Models\User as BaseUser;
-use Laravel\Jetstream\HasProfilePhoto;
-use Laravel\Jetstream\HasTeams;
+use Ndinhbang\Jetstream\HasProfilePhoto;
+use Ndinhbang\Jetstream\HasTeams;
 use Laravel\Sanctum\HasApiTokens;
 
 class User extends BaseUser

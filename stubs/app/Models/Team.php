@@ -3,10 +3,10 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Laravel\Jetstream\Events\TeamCreated;
-use Laravel\Jetstream\Events\TeamDeleted;
-use Laravel\Jetstream\Events\TeamUpdated;
-use Laravel\Jetstream\Team as JetstreamTeam;
+use Ndinhbang\Jetstream\Events\TeamCreated;
+use Ndinhbang\Jetstream\Events\TeamDeleted;
+use Ndinhbang\Jetstream\Events\TeamUpdated;
+use Ndinhbang\Jetstream\Team as JetstreamTeam;
 
 class Team extends JetstreamTeam
 {

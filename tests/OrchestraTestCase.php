@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Jetstream\Tests;
+namespace Ndinhbang\Jetstream\Tests;
 
 use Laravel\Fortify\FortifyServiceProvider;
-use Laravel\Jetstream\Features;
-use Laravel\Jetstream\JetstreamServiceProvider;
+use Ndinhbang\Jetstream\Features;
+use Ndinhbang\Jetstream\JetstreamServiceProvider;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase;
 

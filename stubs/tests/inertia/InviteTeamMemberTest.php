@@ -5,8 +5,8 @@ namespace Tests\Feature;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Mail;
-use Laravel\Jetstream\Features;
-use Laravel\Jetstream\Mail\TeamInvitation;
+use Ndinhbang\Jetstream\Features;
+use Ndinhbang\Jetstream\Mail\TeamInvitation;
 use Tests\TestCase;
 
 class InviteTeamMemberTest extends TestCase

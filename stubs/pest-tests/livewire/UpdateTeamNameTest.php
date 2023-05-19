@@ -1,7 +1,7 @@
 <?php
 
 use App\Models\User;
-use Laravel\Jetstream\Http\Livewire\UpdateTeamNameForm;
+use Ndinhbang\Jetstream\Http\Livewire\UpdateTeamNameForm;
 use Livewire\Livewire;
 
 test('team names can be updated', function () {
