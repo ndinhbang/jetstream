@@ -1,16 +1,16 @@
 <?php
 
-namespace Laravel\Jetstream;
+namespace Ndinhbang\Jetstream;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
-use Laravel\Jetstream\Contracts\AddsTeamMembers;
-use Laravel\Jetstream\Contracts\CreatesTeams;
-use Laravel\Jetstream\Contracts\DeletesTeams;
-use Laravel\Jetstream\Contracts\DeletesUsers;
-use Laravel\Jetstream\Contracts\InvitesTeamMembers;
-use Laravel\Jetstream\Contracts\RemovesTeamMembers;
-use Laravel\Jetstream\Contracts\UpdatesTeamNames;
+use Ndinhbang\Jetstream\Contracts\AddsTeamMembers;
+use Ndinhbang\Jetstream\Contracts\CreatesTeams;
+use Ndinhbang\Jetstream\Contracts\DeletesTeams;
+use Ndinhbang\Jetstream\Contracts\DeletesUsers;
+use Ndinhbang\Jetstream\Contracts\InvitesTeamMembers;
+use Ndinhbang\Jetstream\Contracts\RemovesTeamMembers;
+use Ndinhbang\Jetstream\Contracts\UpdatesTeamNames;
 
 class Jetstream
 {
@@ -73,7 +73,7 @@ class Jetstream
     /**
      * The Inertia manager instance.
      *
-     * @var \Laravel\Jetstream\InertiaManager
+     * @var \Ndinhbang\Jetstream\InertiaManager
      */
     public static $inertiaManager;
 
@@ -91,7 +91,7 @@ class Jetstream
      * Find the role with the given key.
      *
      * @param  string  $key
-     * @return \Laravel\Jetstream\Role
+     * @return \Ndinhbang\Jetstream\Role
      */
     public static function findRole(string $key)
     {
@@ -104,7 +104,7 @@ class Jetstream
      * @param  string  $key
      * @param  string  $name
      * @param  array  $permissions
-     * @return \Laravel\Jetstream\Role
+     * @return \Ndinhbang\Jetstream\Role
      */
     public static function role(string $key, string $name, array $permissions)
     {
@@ -447,7 +447,7 @@ class Jetstream
     /**
      * Manage Jetstream's Inertia settings.
      *
-     * @return \Laravel\Jetstream\InertiaManager
+     * @return \Ndinhbang\Jetstream\InertiaManager
      */
     public static function inertia()
     {

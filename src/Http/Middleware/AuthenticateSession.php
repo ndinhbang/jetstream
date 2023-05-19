@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Jetstream\Http\Middleware;
+namespace Ndinhbang\Jetstream\Http\Middleware;
 
 use Illuminate\Contracts\Auth\StatefulGuard;
 use Illuminate\Session\Middleware\AuthenticateSession as BaseAuthenticateSession;

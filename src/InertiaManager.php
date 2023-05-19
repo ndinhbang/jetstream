@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Jetstream;
+namespace Ndinhbang\Jetstream;
 
 use Illuminate\Http\Request;
 use Inertia\Inertia;

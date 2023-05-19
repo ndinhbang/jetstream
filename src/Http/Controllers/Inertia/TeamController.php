@@ -1,16 +1,16 @@
 <?php
 
-namespace Laravel\Jetstream\Http\Controllers\Inertia;
+namespace Ndinhbang\Jetstream\Http\Controllers\Inertia;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Gate;
-use Laravel\Jetstream\Actions\ValidateTeamDeletion;
-use Laravel\Jetstream\Contracts\CreatesTeams;
-use Laravel\Jetstream\Contracts\DeletesTeams;
-use Laravel\Jetstream\Contracts\UpdatesTeamNames;
-use Laravel\Jetstream\Jetstream;
-use Laravel\Jetstream\RedirectsActions;
+use Ndinhbang\Jetstream\Actions\ValidateTeamDeletion;
+use Ndinhbang\Jetstream\Contracts\CreatesTeams;
+use Ndinhbang\Jetstream\Contracts\DeletesTeams;
+use Ndinhbang\Jetstream\Contracts\UpdatesTeamNames;
+use Ndinhbang\Jetstream\Jetstream;
+use Ndinhbang\Jetstream\RedirectsActions;
 
 class TeamController extends Controller
 {

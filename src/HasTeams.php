@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Jetstream;
+namespace Ndinhbang\Jetstream;
 
 use Illuminate\Support\Str;
 use Laravel\Sanctum\HasApiTokens;
@@ -132,7 +132,7 @@ trait HasTeams
      * Get the role that the user has on the team.
      *
      * @param  mixed  $team
-     * @return \Laravel\Jetstream\Role|null
+     * @return \Ndinhbang\Jetstream\Role|null
      */
     public function teamRole($team)
     {

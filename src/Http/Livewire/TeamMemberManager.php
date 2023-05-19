@@ -1,15 +1,15 @@
 <?php
 
-namespace Laravel\Jetstream\Http\Livewire;
+namespace Ndinhbang\Jetstream\Http\Livewire;
 
 use Illuminate\Support\Facades\Auth;
-use Laravel\Jetstream\Actions\UpdateTeamMemberRole;
-use Laravel\Jetstream\Contracts\AddsTeamMembers;
-use Laravel\Jetstream\Contracts\InvitesTeamMembers;
-use Laravel\Jetstream\Contracts\RemovesTeamMembers;
-use Laravel\Jetstream\Features;
-use Laravel\Jetstream\Jetstream;
-use Laravel\Jetstream\Role;
+use Ndinhbang\Jetstream\Actions\UpdateTeamMemberRole;
+use Ndinhbang\Jetstream\Contracts\AddsTeamMembers;
+use Ndinhbang\Jetstream\Contracts\InvitesTeamMembers;
+use Ndinhbang\Jetstream\Contracts\RemovesTeamMembers;
+use Ndinhbang\Jetstream\Features;
+use Ndinhbang\Jetstream\Jetstream;
+use Ndinhbang\Jetstream\Role;
 use Livewire\Component;
 
 class TeamMemberManager extends Component
@@ -152,7 +152,7 @@ class TeamMemberManager extends Component
     /**
      * Save the role for the user being managed.
      *
-     * @param  \Laravel\Jetstream\Actions\UpdateTeamMemberRole  $updater
+     * @param  \Ndinhbang\Jetstream\Actions\UpdateTeamMemberRole  $updater
      * @return void
      */
     public function updateRole(UpdateTeamMemberRole $updater)
@@ -182,7 +182,7 @@ class TeamMemberManager extends Component
     /**
      * Remove the currently authenticated user from the team.
      *
-     * @param  \Laravel\Jetstream\Contracts\RemovesTeamMembers  $remover
+     * @param  \Ndinhbang\Jetstream\Contracts\RemovesTeamMembers  $remover
      * @return void
      */
     public function leaveTeam(RemovesTeamMembers $remover)
@@ -216,7 +216,7 @@ class TeamMemberManager extends Component
     /**
      * Remove a team member from the team.
      *
-     * @param  \Laravel\Jetstream\Contracts\RemovesTeamMembers  $remover
+     * @param  \Ndinhbang\Jetstream\Contracts\RemovesTeamMembers  $remover
      * @return void
      */
     public function removeTeamMember(RemovesTeamMembers $remover)

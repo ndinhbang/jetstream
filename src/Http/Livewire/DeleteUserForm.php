@@ -1,13 +1,13 @@
 <?php
 
-namespace Laravel\Jetstream\Http\Livewire;
+namespace Ndinhbang\Jetstream\Http\Livewire;
 
 use Illuminate\Contracts\Auth\StatefulGuard;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\ValidationException;
-use Laravel\Jetstream\Contracts\DeletesUsers;
+use Ndinhbang\Jetstream\Contracts\DeletesUsers;
 use Livewire\Component;
 
 class DeleteUserForm extends Component
@@ -46,7 +46,7 @@ class DeleteUserForm extends Component
      * Delete the current user.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \Laravel\Jetstream\Contracts\DeletesUsers  $deleter
+     * @param  \Ndinhbang\Jetstream\Contracts\DeletesUsers  $deleter
      * @param  \Illuminate\Contracts\Auth\StatefulGuard  $auth
      * @return \Illuminate\Routing\Redirector|\Illuminate\Http\RedirectResponse
      */

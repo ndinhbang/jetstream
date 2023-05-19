@@ -1,16 +1,16 @@
 {
-    "name": "laravel/jetstream",
+    "name": "ndinhbang/jetstream",
     "description": "Tailwind scaffolding for the Laravel framework.",
     "keywords": ["laravel", "tailwind", "auth"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel/jetstream/issues",
-        "source": "https://github.com/laravel/jetstream"
+        "issues": "https://github.com/ndinhbang/jetstream/issues",
+        "source": "https://github.com/ndinhbang/jetstream"
     },
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylor@laravel.com"
+            "name": "Nguyen Dinh Bang",
+            "email": "ndinhbang111@gmail.com"
         }
     ],
     "require": {
@@ -32,23 +32,20 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Jetstream\\": "src/"
+            "Ndinhbang\\Jetstream\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laravel\\Jetstream\\Tests\\": "tests/",
+            "Ndinhbang\\Jetstream\\Tests\\": "tests/",
             "App\\": "stubs/app/",
             "Database\\Factories\\": "database/factories/"
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "3.x-dev"
-        },
         "laravel": {
             "providers": [
-                "Laravel\\Jetstream\\JetstreamServiceProvider"
+                "Ndinhbang\\Jetstream\\JetstreamServiceProvider"
             ]
         }
     },

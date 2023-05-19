@@ -1,15 +1,15 @@
 <?php
 
-namespace Laravel\Jetstream\Http\Controllers\Inertia;
+namespace Ndinhbang\Jetstream\Http\Controllers\Inertia;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Laravel\Jetstream\Actions\UpdateTeamMemberRole;
-use Laravel\Jetstream\Contracts\AddsTeamMembers;
-use Laravel\Jetstream\Contracts\InvitesTeamMembers;
-use Laravel\Jetstream\Contracts\RemovesTeamMembers;
-use Laravel\Jetstream\Features;
-use Laravel\Jetstream\Jetstream;
+use Ndinhbang\Jetstream\Actions\UpdateTeamMemberRole;
+use Ndinhbang\Jetstream\Contracts\AddsTeamMembers;
+use Ndinhbang\Jetstream\Contracts\InvitesTeamMembers;
+use Ndinhbang\Jetstream\Contracts\RemovesTeamMembers;
+use Ndinhbang\Jetstream\Features;
+use Ndinhbang\Jetstream\Jetstream;
 
 class TeamMemberController extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Jetstream\Events;
+namespace Ndinhbang\Jetstream\Events;
 
 class TeamDeleted extends TeamEvent
 {

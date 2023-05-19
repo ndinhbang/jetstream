@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Jetstream\Http\Controllers\Livewire;
+namespace Ndinhbang\Jetstream\Http\Controllers\Livewire;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

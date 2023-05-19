@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Jetstream;
+namespace Ndinhbang\Jetstream;
 
 use App\Http\Middleware\HandleInertiaRequests;
 use Illuminate\Contracts\Http\Kernel;
@@ -11,18 +11,18 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
 use Inertia\Inertia;
 use Laravel\Fortify\Fortify;
-use Laravel\Jetstream\Http\Livewire\ApiTokenManager;
-use Laravel\Jetstream\Http\Livewire\CreateTeamForm;
-use Laravel\Jetstream\Http\Livewire\DeleteTeamForm;
-use Laravel\Jetstream\Http\Livewire\DeleteUserForm;
-use Laravel\Jetstream\Http\Livewire\LogoutOtherBrowserSessionsForm;
-use Laravel\Jetstream\Http\Livewire\NavigationMenu;
-use Laravel\Jetstream\Http\Livewire\TeamMemberManager;
-use Laravel\Jetstream\Http\Livewire\TwoFactorAuthenticationForm;
-use Laravel\Jetstream\Http\Livewire\UpdatePasswordForm;
-use Laravel\Jetstream\Http\Livewire\UpdateProfileInformationForm;
-use Laravel\Jetstream\Http\Livewire\UpdateTeamNameForm;
-use Laravel\Jetstream\Http\Middleware\ShareInertiaData;
+use Ndinhbang\Jetstream\Http\Livewire\ApiTokenManager;
+use Ndinhbang\Jetstream\Http\Livewire\CreateTeamForm;
+use Ndinhbang\Jetstream\Http\Livewire\DeleteTeamForm;
+use Ndinhbang\Jetstream\Http\Livewire\DeleteUserForm;
+use Ndinhbang\Jetstream\Http\Livewire\LogoutOtherBrowserSessionsForm;
+use Ndinhbang\Jetstream\Http\Livewire\NavigationMenu;
+use Ndinhbang\Jetstream\Http\Livewire\TeamMemberManager;
+use Ndinhbang\Jetstream\Http\Livewire\TwoFactorAuthenticationForm;
+use Ndinhbang\Jetstream\Http\Livewire\UpdatePasswordForm;
+use Ndinhbang\Jetstream\Http\Livewire\UpdateProfileInformationForm;
+use Ndinhbang\Jetstream\Http\Livewire\UpdateTeamNameForm;
+use Ndinhbang\Jetstream\Http\Middleware\ShareInertiaData;
 use Livewire\Livewire;
 
 class JetstreamServiceProvider extends ServiceProvider
@@ -139,7 +139,7 @@ class JetstreamServiceProvider extends ServiceProvider
     {
         if (Jetstream::$registersRoutes) {
             Route::group([
-                'namespace' => 'Laravel\Jetstream\Http\Controllers',
+                'namespace' => 'Ndinhbang\Jetstream\Http\Controllers',
                 'domain' => config('jetstream.domain', null),
                 'prefix' => config('jetstream.prefix', config('jetstream.path')),
             ], function () {

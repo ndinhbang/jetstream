@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Jetstream\Contracts;
+namespace Ndinhbang\Jetstream\Contracts;
 
 /**
  * @method void delete(\Illuminate\Foundation\Auth\User $user)

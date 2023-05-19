@@ -1,12 +1,12 @@
 <?php
 
-namespace Laravel\Jetstream\Mail;
+namespace Ndinhbang\Jetstream\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\URL;
-use Laravel\Jetstream\TeamInvitation as TeamInvitationModel;
+use Ndinhbang\Jetstream\TeamInvitation as TeamInvitationModel;
 
 class TeamInvitation extends Mailable
 {
@@ -15,14 +15,14 @@ class TeamInvitation extends Mailable
     /**
      * The team invitation instance.
      *
-     * @var \Laravel\Jetstream\TeamInvitation
+     * @var \Ndinhbang\Jetstream\TeamInvitation
      */
     public $invitation;
 
     /**
      * Create a new message instance.
      *
-     * @param  \Laravel\Jetstream\TeamInvitation  $invitation
+     * @param  \Ndinhbang\Jetstream\TeamInvitation  $invitation
      * @return void
      */
     public function __construct(TeamInvitationModel $invitation)
